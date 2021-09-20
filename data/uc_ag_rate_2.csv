@@ -1,0 +1,539 @@
+District,Year,Enrollment Type,County,District Classification,Enrollment Breakdown,Metric,Region,Col Label,Color Desc,Row Label,Status %
+San Diego County Office of Education,2017,SwD,San Diego,County Office of Education (COE),Disability Status,currstatus,San Diego/Imperial,,,,52.40%
+San Diego County Office of Education,2017,English Learner,San Diego,County Office of Education (COE),ELL Status,currstatus,San Diego/Imperial,,,,49.10%
+San Diego County Office of Education,2017,Econ Disadv,San Diego,County Office of Education (COE),Economic Status,currstatus,San Diego/Imperial,,,,45.80%
+San Diego County Office of Education,2017,Black,San Diego,County Office of Education (COE),Race/Ethnicity,currstatus,San Diego/Imperial,,,,52.10%
+San Dieguito Union High,2017,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,,,,79.80%
+Fallbrook Union High,2017,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,,,,58.00%
+Sweetwater Union High,2017,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,,,,72.10%
+Escondido Union High,2017,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,,,,74.60%
+Grossmont Union High,2017,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,,,,59.10%
+San Dieguito Union High,2017,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,,,,73.70%
+Fallbrook Union High,2017,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,,,,60.00%
+Sweetwater Union High,2017,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,,,,78.20%
+Escondido Union High,2017,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,,,,69.50%
+Grossmont Union High,2017,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,,,,61.10%
+San Dieguito Union High,2017,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,,,,85.70%
+Fallbrook Union High,2017,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,,,,76.90%
+Sweetwater Union High,2017,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,,,,84.40%
+Escondido Union High,2017,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,,,,85.10%
+Grossmont Union High,2017,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,,,,75.60%
+Julian Union High,2017,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,,,,95.70%
+Sweetwater Union High,2017,Amer Indian,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,,,,72.70%
+Grossmont Union High,2017,Amer Indian,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,,,,75.00%
+San Dieguito Union High,2017,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,,,,86.40%
+Fallbrook Union High,2017,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,,,,69.20%
+Sweetwater Union High,2017,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,,,,87.00%
+Escondido Union High,2017,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,,,,90.00%
+Grossmont Union High,2017,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,,,,69.00%
+SBC - High Tech High,2017,SwD,San Diego,Statewide Benefit Charter,Disability Status,currstatus,San Diego/Imperial,,,,95.00%
+SBC - High Tech High,2017,English Learner,San Diego,Statewide Benefit Charter,ELL Status,currstatus,San Diego/Imperial,,,,94.10%
+SBC - High Tech High,2017,Econ Disadv,San Diego,Statewide Benefit Charter,Economic Status,currstatus,San Diego/Imperial,,,,95.00%
+Oceanside Unified,2017,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,,,,77.00%
+Carlsbad Unified,2017,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,,,,75.50%
+Vista Unified,2017,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,,,,68.60%
+Coronado Unified,2017,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,,,,84.60%
+San Marcos Unified,2017,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,,,,82.10%
+San Diego Unified,2017,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,,,,59.40%
+Poway Unified,2017,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,,,,80.20%
+Valley Center-Pauma Unified,2017,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,,,,78.10%
+Ramona City Unified,2017,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,,,,65.80%
+Mountain Empire Unified,2017,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,,,,46.20%
+Oceanside Unified,2017,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,,,,68.40%
+Carlsbad Unified,2017,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,,,,71.90%
+Vista Unified,2017,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,,,,72.20%
+San Marcos Unified,2017,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,,,,92.00%
+San Diego Unified,2017,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,,,,77.10%
+Poway Unified,2017,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,,,,80.30%
+Valley Center-Pauma Unified,2017,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,,,,81.60%
+Ramona City Unified,2017,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,,,,75.90%
+Mountain Empire Unified,2017,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,,,,86.40%
+Oceanside Unified,2017,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,,,,86.50%
+Carlsbad Unified,2017,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,,,,90.10%
+Vista Unified,2017,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,,,,82.50%
+Coronado Unified,2017,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,,,,97.10%
+San Marcos Unified,2017,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,,,,94.70%
+San Diego Unified,2017,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,,,,86.00%
+Poway Unified,2017,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,,,,88.90%
+Valley Center-Pauma Unified,2017,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,,,,87.90%
+Ramona City Unified,2017,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,,,,87.90%
+Warner Unified,2017,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,,,,100.00%
+Mountain Empire Unified,2017,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,,,,83.30%
+Borrego Springs Unified,2017,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,,,,92.90%
+San Diego Unified,2017,Amer Indian,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,,,,75.00%
+Valley Center-Pauma Unified,2017,Amer Indian,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,,,,81.60%
+Oceanside Unified,2017,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,,,,89.50%
+Carlsbad Unified,2017,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,,,,90.00%
+Vista Unified,2017,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,,,,84.20%
+San Marcos Unified,2017,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,,,,95.00%
+San Diego Unified,2017,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,,,,87.40%
+Poway Unified,2017,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,,,,91.70%
+San Diego County Office of Education,2018,SwD,San Diego,County Office of Education (COE),Disability Status,currstatus,San Diego/Imperial,Declined,Red,Very Low,44.30%
+San Diego County Office of Education,2018,English Learner,San Diego,County Office of Education (COE),ELL Status,currstatus,San Diego/Imperial,Declined Significantly,Red,Very Low,35.70%
+San Diego County Office of Education,2018,Econ Disadv,San Diego,County Office of Education (COE),Economic Status,currstatus,San Diego/Imperial,Declined,Red,Very Low,39.90%
+San Diego County Office of Education,2018,Black,San Diego,County Office of Education (COE),Race/Ethnicity,currstatus,San Diego/Imperial,Maintained,Red,Very Low,51.40%
+San Diego County Office of Education,2019,SwD,San Diego,County Office of Education (COE),Disability Status,currstatus,San Diego/Imperial,Increased,Red,Very Low,54.60%
+San Diego County Office of Education,2019,English Learner,San Diego,County Office of Education (COE),ELL Status,currstatus,San Diego/Imperial,Increased,Red,Very Low,56.40%
+San Diego County Office of Education,2019,Econ Disadv,San Diego,County Office of Education (COE),Economic Status,currstatus,San Diego/Imperial,Increased Significantly,Red,Very Low,56.40%
+San Diego County Office of Education,2019,Black,San Diego,County Office of Education (COE),Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Red,Very Low,61.50%
+Lakeside Union Elementary (San Diego),2013,SwD,San Diego,Elementary School District,Disability Status,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,27.30%
+Fallbrook Union High,2012,Black,San Diego,High School District,Race/Ethnicity,prioryear3_status,San Diego/Imperial,No Color,No Color,No Color,83.30%
+Fallbrook Union High,2013,Black,San Diego,High School District,Race/Ethnicity,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,70.60%
+Fallbrook Union High,2012,SwD,San Diego,High School District,Disability Status,prioryear3_status,San Diego/Imperial,Declined,Red,Very Low,67.80%
+Fallbrook Union High,2013,SwD,San Diego,High School District,Disability Status,prioryear2_status,San Diego/Imperial,Declined,Red,Very Low,66.20%
+Fallbrook Union High,2014,SwD,San Diego,High School District,Disability Status,prioryear1_status,San Diego/Imperial,Declined,Red,Very Low,67.20%
+Fallbrook Union High,2015,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Declined,Red,Very Low,64.50%
+Grossmont Union High,2012,SwD,San Diego,High School District,Disability Status,prioryear3_status,San Diego/Imperial,Increased Significantly,Red,Very Low,59.50%
+Grossmont Union High,2013,SwD,San Diego,High School District,Disability Status,prioryear2_status,San Diego/Imperial,Increased Significantly,Red,Very Low,59.70%
+Grossmont Union High,2014,SwD,San Diego,High School District,Disability Status,prioryear1_status,San Diego/Imperial,Increased Significantly,Red,Very Low,47.60%
+Grossmont Union High,2015,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Increased Significantly,Red,Very Low,61.60%
+Fallbrook Union High,2012,English Learner,San Diego,High School District,ELL Status,prioryear3_status,San Diego/Imperial,Declined Significantly,Red,Very Low,73.30%
+Fallbrook Union High,2013,English Learner,San Diego,High School District,ELL Status,prioryear2_status,San Diego/Imperial,Declined Significantly,Red,Very Low,80.30%
+Fallbrook Union High,2014,English Learner,San Diego,High School District,ELL Status,prioryear1_status,San Diego/Imperial,Declined Significantly,Red,Very Low,65.40%
+Fallbrook Union High,2015,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Declined Significantly,Red,Very Low,59.20%
+Sweetwater Union High,2012,SwD,San Diego,High School District,Disability Status,prioryear3_status,San Diego/Imperial,Increased,Yellow,Low,70.20%
+Escondido Union High,2012,SwD,San Diego,High School District,Disability Status,prioryear3_status,San Diego/Imperial,Increased,Yellow,Low,71.50%
+Sweetwater Union High,2013,SwD,San Diego,High School District,Disability Status,prioryear2_status,San Diego/Imperial,Increased,Yellow,Low,64.70%
+Escondido Union High,2013,SwD,San Diego,High School District,Disability Status,prioryear2_status,San Diego/Imperial,Increased,Yellow,Low,75.30%
+Sweetwater Union High,2014,SwD,San Diego,High School District,Disability Status,prioryear1_status,San Diego/Imperial,Increased,Yellow,Low,66.10%
+Escondido Union High,2014,SwD,San Diego,High School District,Disability Status,prioryear1_status,San Diego/Imperial,Increased,Yellow,Low,77.30%
+Sweetwater Union High,2015,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,69.30%
+Escondido Union High,2015,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,76.60%
+Sweetwater Union High,2012,English Learner,San Diego,High School District,ELL Status,prioryear3_status,San Diego/Imperial,Increased Significantly,Yellow,Low,75.20%
+Grossmont Union High,2012,English Learner,San Diego,High School District,ELL Status,prioryear3_status,San Diego/Imperial,Increased Significantly,Yellow,Low,58.70%
+Sweetwater Union High,2013,English Learner,San Diego,High School District,ELL Status,prioryear2_status,San Diego/Imperial,Increased Significantly,Yellow,Low,72.60%
+Grossmont Union High,2013,English Learner,San Diego,High School District,ELL Status,prioryear2_status,San Diego/Imperial,Increased Significantly,Yellow,Low,63.40%
+Sweetwater Union High,2014,English Learner,San Diego,High School District,ELL Status,prioryear1_status,San Diego/Imperial,Increased Significantly,Yellow,Low,73.00%
+Grossmont Union High,2014,English Learner,San Diego,High School District,ELL Status,prioryear1_status,San Diego/Imperial,Increased Significantly,Yellow,Low,57.60%
+Sweetwater Union High,2015,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Increased Significantly,Yellow,Low,80.30%
+Grossmont Union High,2015,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Increased Significantly,Yellow,Low,73.10%
+Fallbrook Union High,2012,Econ Disadv,San Diego,High School District,Economic Status,prioryear3_status,San Diego/Imperial,Declined Significantly,Red,Low,86.00%
+Fallbrook Union High,2013,Econ Disadv,San Diego,High School District,Economic Status,prioryear2_status,San Diego/Imperial,Declined Significantly,Red,Low,88.20%
+Fallbrook Union High,2014,Econ Disadv,San Diego,High School District,Economic Status,prioryear1_status,San Diego/Imperial,Declined Significantly,Red,Low,78.30%
+Fallbrook Union High,2015,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Declined Significantly,Red,Low,76.00%
+Sweetwater Union High,2012,Econ Disadv,San Diego,High School District,Economic Status,prioryear3_status,San Diego/Imperial,Increased,Yellow,Low,84.10%
+Sweetwater Union High,2013,Econ Disadv,San Diego,High School District,Economic Status,prioryear2_status,San Diego/Imperial,Increased,Yellow,Low,83.20%
+Sweetwater Union High,2014,Econ Disadv,San Diego,High School District,Economic Status,prioryear1_status,San Diego/Imperial,Increased,Yellow,Low,81.30%
+Sweetwater Union High,2015,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,84.00%
+Grossmont Union High,2012,Econ Disadv,San Diego,High School District,Economic Status,prioryear3_status,San Diego/Imperial,Increased Significantly,Yellow,Low,70.70%
+Grossmont Union High,2013,Econ Disadv,San Diego,High School District,Economic Status,prioryear2_status,San Diego/Imperial,Increased Significantly,Yellow,Low,70.90%
+Grossmont Union High,2014,Econ Disadv,San Diego,High School District,Economic Status,prioryear1_status,San Diego/Imperial,Increased Significantly,Yellow,Low,68.90%
+Grossmont Union High,2015,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Increased Significantly,Yellow,Low,79.90%
+Escondido Union High,2012,Black,San Diego,High School District,Race/Ethnicity,prioryear3_status,San Diego/Imperial,No Color,No Color,No Color,85.70%
+Escondido Union High,2013,Black,San Diego,High School District,Race/Ethnicity,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,91.30%
+Escondido Union High,2014,Black,San Diego,High School District,Race/Ethnicity,prioryear1_status,San Diego/Imperial,No Color,No Color,No Color,93.80%
+Escondido Union High,2015,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,82.80%
+Sweetwater Union High,2012,Black,San Diego,High School District,Race/Ethnicity,prioryear3_status,San Diego/Imperial,Declined,Orange,Low,82.40%
+Sweetwater Union High,2013,Black,San Diego,High School District,Race/Ethnicity,prioryear2_status,San Diego/Imperial,Declined,Orange,Low,86.30%
+Sweetwater Union High,2014,Black,San Diego,High School District,Race/Ethnicity,prioryear1_status,San Diego/Imperial,Declined,Orange,Low,83.90%
+Sweetwater Union High,2015,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,Orange,Low,82.10%
+Grossmont Union High,2012,Amer Indian,San Diego,High School District,Race/Ethnicity,prioryear3_status,San Diego/Imperial,Increased Significantly,Yellow,Low,76.90%
+Grossmont Union High,2012,Black,San Diego,High School District,Race/Ethnicity,prioryear3_status,San Diego/Imperial,Increased Significantly,Yellow,Low,75.70%
+Grossmont Union High,2013,Amer Indian,San Diego,High School District,Race/Ethnicity,prioryear2_status,San Diego/Imperial,Increased Significantly,Yellow,Low,69.10%
+Grossmont Union High,2013,Black,San Diego,High School District,Race/Ethnicity,prioryear2_status,San Diego/Imperial,Increased Significantly,Yellow,Low,74.10%
+Grossmont Union High,2014,Amer Indian,San Diego,High School District,Race/Ethnicity,prioryear1_status,San Diego/Imperial,Increased Significantly,Yellow,Low,61.50%
+Grossmont Union High,2014,Black,San Diego,High School District,Race/Ethnicity,prioryear1_status,San Diego/Imperial,Increased Significantly,Yellow,Low,63.30%
+Grossmont Union High,2015,Amer Indian,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased Significantly,Yellow,Low,76.70%
+Grossmont Union High,2015,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased Significantly,Yellow,Low,76.70%
+San Dieguito Union High,2012,SwD,San Diego,High School District,Disability Status,prioryear3_status,San Diego/Imperial,Maintained,Yellow,Medium,87.60%
+San Dieguito Union High,2013,SwD,San Diego,High School District,Disability Status,prioryear2_status,San Diego/Imperial,Maintained,Yellow,Medium,87.10%
+San Dieguito Union High,2014,SwD,San Diego,High School District,Disability Status,prioryear1_status,San Diego/Imperial,Maintained,Yellow,Medium,85.30%
+San Dieguito Union High,2015,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Maintained,Yellow,Medium,85.90%
+San Dieguito Union High,2012,English Learner,San Diego,High School District,ELL Status,prioryear3_status,San Diego/Imperial,Declined,Orange,Medium,88.30%
+San Dieguito Union High,2013,English Learner,San Diego,High School District,ELL Status,prioryear2_status,San Diego/Imperial,Declined,Orange,Medium,90.90%
+San Dieguito Union High,2014,English Learner,San Diego,High School District,ELL Status,prioryear1_status,San Diego/Imperial,Declined,Orange,Medium,87.40%
+San Dieguito Union High,2015,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,85.70%
+Escondido Union High,2012,English Learner,San Diego,High School District,ELL Status,prioryear3_status,San Diego/Imperial,Increased Significantly,Green,Medium,72.10%
+Escondido Union High,2013,English Learner,San Diego,High School District,ELL Status,prioryear2_status,San Diego/Imperial,Increased Significantly,Green,Medium,73.80%
+Escondido Union High,2014,English Learner,San Diego,High School District,ELL Status,prioryear1_status,San Diego/Imperial,Increased Significantly,Green,Medium,76.60%
+Escondido Union High,2015,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Increased Significantly,Green,Medium,88.40%
+San Dieguito Union High,2012,Econ Disadv,San Diego,High School District,Economic Status,prioryear3_status,San Diego/Imperial,Declined,Yellow,High,91.70%
+San Dieguito Union High,2013,Econ Disadv,San Diego,High School District,Economic Status,prioryear2_status,San Diego/Imperial,Declined,Yellow,High,94.30%
+San Dieguito Union High,2014,Econ Disadv,San Diego,High School District,Economic Status,prioryear1_status,San Diego/Imperial,Declined,Yellow,High,93.40%
+San Dieguito Union High,2015,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Declined,Yellow,High,91.60%
+Escondido Union High,2012,Econ Disadv,San Diego,High School District,Economic Status,prioryear3_status,San Diego/Imperial,Increased,Green,High,88.10%
+Escondido Union High,2013,Econ Disadv,San Diego,High School District,Economic Status,prioryear2_status,San Diego/Imperial,Increased,Green,High,87.00%
+Escondido Union High,2014,Econ Disadv,San Diego,High School District,Economic Status,prioryear1_status,San Diego/Imperial,Increased,Green,High,88.30%
+Escondido Union High,2015,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Increased,Green,High,91.20%
+Sweetwater Union High,2012,Amer Indian,San Diego,High School District,Race/Ethnicity,prioryear3_status,San Diego/Imperial,No Color,No Color,No Color,79.00%
+Sweetwater Union High,2013,Amer Indian,San Diego,High School District,Race/Ethnicity,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,76.50%
+Sweetwater Union High,2014,Amer Indian,San Diego,High School District,Race/Ethnicity,prioryear1_status,San Diego/Imperial,No Color,No Color,No Color,70.80%
+Sweetwater Union High,2015,Amer Indian,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,91.70%
+Julian Union High,2012,Econ Disadv,San Diego,High School District,Economic Status,prioryear3_status,San Diego/Imperial,No Color,No Color,No Color,94.40%
+Julian Union High,2013,Econ Disadv,San Diego,High School District,Economic Status,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,100.00%
+Julian Union High,2014,Econ Disadv,San Diego,High School District,Economic Status,prioryear1_status,San Diego/Imperial,No Color,No Color,No Color,89.50%
+Julian Union High,2015,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,100.00%
+San Dieguito Union High,2012,Black,San Diego,High School District,Race/Ethnicity,prioryear3_status,San Diego/Imperial,No Color,No Color,No Color,100.00%
+San Dieguito Union High,2013,Black,San Diego,High School District,Race/Ethnicity,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,95.50%
+San Dieguito Union High,2014,Black,San Diego,High School District,Race/Ethnicity,prioryear1_status,San Diego/Imperial,No Color,No Color,No Color,95.00%
+San Dieguito Union High,2015,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,100.00%
+Grossmont Union High,2016,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Increased Significantly,Red,Very Low,61.20%
+Fallbrook Union High,2016,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Declined,Red,Very Low,63.70%
+Julian Union High,2016,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,84.60%
+Fallbrook Union High,2016,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,68.00%
+Sweetwater Union High,2016,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,67.90%
+Escondido Union High,2016,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,80.00%
+San Dieguito Union High,2016,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Declined Significantly,Red,Low,82.30%
+Sweetwater Union High,2016,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Declined Significantly,Red,Low,68.60%
+Grossmont Union High,2016,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,67.30%
+Julian Union High,2016,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,76.50%
+Fallbrook Union High,2016,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Declined,Orange,Low,79.60%
+Sweetwater Union High,2016,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Orange,Low,82.20%
+Grossmont Union High,2016,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Increased Significantly,Yellow,Low,83.80%
+Sweetwater Union High,2016,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,Maintained,Orange,Low,83.70%
+Grossmont Union High,2016,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased Significantly,Yellow,Low,82.90%
+Grossmont Union High,2016,Amer Indian,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,81.80%
+San Dieguito Union High,2016,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Maintained,Yellow,Medium,86.00%
+Escondido Union High,2016,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Increased Significantly,Green,Medium,88.00%
+San Dieguito Union High,2016,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,88.90%
+Escondido Union High,2016,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Increased,Green,High,91.30%
+San Dieguito Union High,2016,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,90.00%
+Escondido Union High,2016,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Green,High,94.70%
+Escondido Union High,2018,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Declined Significantly,Red,Very Low,61.80%
+Grossmont Union High,2018,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Increased,Red,Very Low,62.00%
+Escondido Union High,2018,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Declined,Red,Very Low,65.40%
+Sweetwater Union High,2018,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Declined,Orange,Low,68.40%
+Fallbrook Union High,2018,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,71.00%
+Sweetwater Union High,2018,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Maintained,Orange,Low,77.40%
+Fallbrook Union High,2018,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,74.00%
+Grossmont Union High,2018,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Increased Significantly,Yellow,Low,68.60%
+Grossmont Union High,2018,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,78.10%
+Grossmont Union High,2018,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased Significantly,Yellow,Low,75.60%
+San Dieguito Union High,2018,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Increased Significantly,Green,Medium,85.10%
+San Dieguito Union High,2018,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Increased,Green,Medium,82.60%
+Escondido Union High,2018,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,82.30%
+Julian Union High,2018,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,85.70%
+Sweetwater Union High,2018,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Yellow,Medium,83.60%
+Fallbrook Union High,2018,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Increased,Green,Medium,81.70%
+Sweetwater Union High,2018,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined Significantly,Orange,Medium,81.60%
+Escondido Union High,2018,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,Orange,Medium,82.10%
+Grossmont Union High,2018,Amer Indian,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,84.60%
+San Dieguito Union High,2018,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Increased Significantly,Blue,High,91.10%
+San Dieguito Union High,2018,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,100.00%
+Fallbrook Union High,2018,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,100.00%
+Fallbrook Union High,2019,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Declined,Red,Very Low,64.80%
+Grossmont Union High,2019,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Maintained,Red,Very Low,63.80%
+Escondido Union High,2019,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Declined,Red,Very Low,66.10%
+Sweetwater Union High,2019,Amer Indian,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,61.50%
+Sweetwater Union High,2019,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Maintained,Orange,Low,69.70%
+Escondido Union High,2019,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Increased Significantly,Yellow,Low,71.70%
+San Dieguito Union High,2019,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Declined,Orange,Low,71.60%
+Grossmont Union High,2019,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Maintained,Orange,Low,71.90%
+Grossmont Union High,2019,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,Orange,Low,75.60%
+Grossmont Union High,2019,Amer Indian,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,76.00%
+San Dieguito Union High,2019,SwD,San Diego,High School District,Disability Status,currstatus,San Diego/Imperial,Declined Significantly,Orange,Medium,80.10%
+Fallbrook Union High,2019,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Increased,Green,Medium,80.00%
+Sweetwater Union High,2019,English Learner,San Diego,High School District,ELL Status,currstatus,San Diego/Imperial,Increased,Green,Medium,80.40%
+San Dieguito Union High,2019,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,87.40%
+Escondido Union High,2019,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,81.80%
+Julian Union High,2019,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,84.00%
+Fallbrook Union High,2019,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Yellow,Medium,82.70%
+Sweetwater Union High,2019,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Yellow,Medium,84.30%
+Grossmont Union High,2019,Econ Disadv,San Diego,High School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Yellow,Medium,80.20%
+Sweetwater Union High,2019,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Green,Medium,85.60%
+Escondido Union High,2019,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Green,Medium,86.70%
+San Dieguito Union High,2019,Black,San Diego,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,95.50%
+SBC - High Tech High,2012,SwD,San Diego,Statewide Benefit Charter,Disability Status,prioryear3_status,San Diego/Imperial,Declined,Yellow,High,94.40%
+SBC - High Tech High,2013,SwD,San Diego,Statewide Benefit Charter,Disability Status,prioryear2_status,San Diego/Imperial,Declined,Yellow,High,89.70%
+SBC - High Tech High,2014,SwD,San Diego,Statewide Benefit Charter,Disability Status,prioryear1_status,San Diego/Imperial,Declined,Yellow,High,94.70%
+SBC - High Tech High,2015,SwD,San Diego,Statewide Benefit Charter,Disability Status,currstatus,San Diego/Imperial,Declined,Yellow,High,91.70%
+SBC - High Tech High,2012,English Learner,San Diego,Statewide Benefit Charter,ELL Status,prioryear3_status,San Diego/Imperial,Declined,Yellow,High,87.90%
+SBC - High Tech High,2013,English Learner,San Diego,Statewide Benefit Charter,ELL Status,prioryear2_status,San Diego/Imperial,Declined,Yellow,High,94.40%
+SBC - High Tech High,2014,English Learner,San Diego,Statewide Benefit Charter,ELL Status,prioryear1_status,San Diego/Imperial,Declined,Yellow,High,93.00%
+SBC - High Tech High,2015,English Learner,San Diego,Statewide Benefit Charter,ELL Status,currstatus,San Diego/Imperial,Declined,Yellow,High,90.00%
+SBC - High Tech High,2012,Black,San Diego,Statewide Benefit Charter,Race/Ethnicity,prioryear3_status,San Diego/Imperial,No Color,No Color,No Color,84.60%
+SBC - High Tech High,2013,Black,San Diego,Statewide Benefit Charter,Race/Ethnicity,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,87.50%
+SBC - High Tech High,2014,Black,San Diego,Statewide Benefit Charter,Race/Ethnicity,prioryear1_status,San Diego/Imperial,No Color,No Color,No Color,92.90%
+SBC - High Tech High,2015,Black,San Diego,Statewide Benefit Charter,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,93.30%
+SBC - High Tech High,2012,Econ Disadv,San Diego,Statewide Benefit Charter,Economic Status,prioryear3_status,San Diego/Imperial,Increased,Blue,Very High,91.40%
+SBC - High Tech High,2013,Econ Disadv,San Diego,Statewide Benefit Charter,Economic Status,prioryear2_status,San Diego/Imperial,Increased,Blue,Very High,92.70%
+SBC - High Tech High,2014,Econ Disadv,San Diego,Statewide Benefit Charter,Economic Status,prioryear1_status,San Diego/Imperial,Increased,Blue,Very High,92.90%
+SBC - High Tech High,2015,Econ Disadv,San Diego,Statewide Benefit Charter,Economic Status,currstatus,San Diego/Imperial,Increased,Blue,Very High,95.60%
+SBC - High Tech High,2016,SwD,San Diego,Statewide Benefit Charter,Disability Status,currstatus,San Diego/Imperial,Declined Significantly,Red,Low,82.00%
+SBC - High Tech High,2016,English Learner,San Diego,Statewide Benefit Charter,ELL Status,currstatus,San Diego/Imperial,Declined Significantly,Red,Low,83.30%
+SBC - High Tech High,2016,Econ Disadv,San Diego,Statewide Benefit Charter,Economic Status,currstatus,San Diego/Imperial,Maintained,Green,High,93.20%
+SBC - High Tech High,2018,SwD,San Diego,Statewide Benefit Charter,Disability Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,86.70%
+SBC - High Tech High,2018,English Learner,San Diego,Statewide Benefit Charter,ELL Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,88.50%
+SBC - High Tech High,2018,Econ Disadv,San Diego,Statewide Benefit Charter,Economic Status,currstatus,San Diego/Imperial,Maintained,Blue,Very High,95.40%
+SBC - High Tech High,2019,SwD,San Diego,Statewide Benefit Charter,Disability Status,currstatus,San Diego/Imperial,Maintained,Yellow,Medium,87.80%
+SBC - High Tech High,2019,English Learner,San Diego,Statewide Benefit Charter,ELL Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,89.50%
+SBC - High Tech High,2019,Econ Disadv,San Diego,Statewide Benefit Charter,Economic Status,currstatus,San Diego/Imperial,Increased,Blue,Very High,97.00%
+Carlsbad Unified,2012,SwD,San Diego,Unified School District,Disability Status,prioryear3_status,San Diego/Imperial,Declined Significantly,Red,Very Low,60.30%
+Ramona City Unified,2012,SwD,San Diego,Unified School District,Disability Status,prioryear3_status,San Diego/Imperial,Declined Significantly,Red,Very Low,67.90%
+Carlsbad Unified,2013,SwD,San Diego,Unified School District,Disability Status,prioryear2_status,San Diego/Imperial,Declined Significantly,Red,Very Low,68.60%
+Ramona City Unified,2013,SwD,San Diego,Unified School District,Disability Status,prioryear2_status,San Diego/Imperial,Declined Significantly,Red,Very Low,71.00%
+Carlsbad Unified,2014,SwD,San Diego,Unified School District,Disability Status,prioryear1_status,San Diego/Imperial,Declined Significantly,Red,Very Low,60.60%
+Ramona City Unified,2014,SwD,San Diego,Unified School District,Disability Status,prioryear1_status,San Diego/Imperial,Declined Significantly,Red,Very Low,52.60%
+Carlsbad Unified,2015,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Declined Significantly,Red,Very Low,48.60%
+Ramona City Unified,2015,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Declined Significantly,Red,Very Low,56.80%
+San Diego Unified,2012,SwD,San Diego,Unified School District,Disability Status,prioryear3_status,San Diego/Imperial,Increased,Red,Very Low,54.30%
+San Diego Unified,2013,SwD,San Diego,Unified School District,Disability Status,prioryear2_status,San Diego/Imperial,Increased,Red,Very Low,51.70%
+San Diego Unified,2014,SwD,San Diego,Unified School District,Disability Status,prioryear1_status,San Diego/Imperial,Increased,Red,Very Low,58.40%
+San Diego Unified,2015,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Increased,Red,Very Low,58.10%
+Valley Center-Pauma Unified,2012,SwD,San Diego,Unified School District,Disability Status,prioryear3_status,San Diego/Imperial,No Color,No Color,No Color,83.30%
+Valley Center-Pauma Unified,2013,SwD,San Diego,Unified School District,Disability Status,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,85.20%
+Valley Center-Pauma Unified,2014,SwD,San Diego,Unified School District,Disability Status,prioryear1_status,San Diego/Imperial,No Color,No Color,No Color,92.00%
+Valley Center-Pauma Unified,2015,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,71.40%
+San Marcos Unified,2012,SwD,San Diego,Unified School District,Disability Status,prioryear3_status,San Diego/Imperial,Declined,Orange,Low,92.40%
+San Marcos Unified,2013,SwD,San Diego,Unified School District,Disability Status,prioryear2_status,San Diego/Imperial,Declined,Orange,Low,80.00%
+San Marcos Unified,2014,SwD,San Diego,Unified School District,Disability Status,prioryear1_status,San Diego/Imperial,Declined,Orange,Low,87.20%
+San Marcos Unified,2015,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Declined,Orange,Low,83.60%
+Vista Unified,2012,SwD,San Diego,Unified School District,Disability Status,prioryear3_status,San Diego/Imperial,Increased,Yellow,Low,70.50%
+Vista Unified,2013,SwD,San Diego,Unified School District,Disability Status,prioryear2_status,San Diego/Imperial,Increased,Yellow,Low,67.30%
+Vista Unified,2014,SwD,San Diego,Unified School District,Disability Status,prioryear1_status,San Diego/Imperial,Increased,Yellow,Low,68.80%
+Vista Unified,2015,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,72.70%
+Oceanside Unified,2012,SwD,San Diego,Unified School District,Disability Status,prioryear3_status,San Diego/Imperial,Increased Significantly,Yellow,Low,66.30%
+Oceanside Unified,2013,SwD,San Diego,Unified School District,Disability Status,prioryear2_status,San Diego/Imperial,Increased Significantly,Yellow,Low,70.10%
+Oceanside Unified,2014,SwD,San Diego,Unified School District,Disability Status,prioryear1_status,San Diego/Imperial,Increased Significantly,Yellow,Low,73.70%
+Oceanside Unified,2015,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Increased Significantly,Yellow,Low,79.30%
+Mountain Empire Unified,2012,SwD,San Diego,Unified School District,Disability Status,prioryear3_status,San Diego/Imperial,No Color,No Color,No Color,42.90%
+Mountain Empire Unified,2013,SwD,San Diego,Unified School District,Disability Status,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,66.70%
+Mountain Empire Unified,2014,SwD,San Diego,Unified School District,Disability Status,prioryear1_status,San Diego/Imperial,No Color,No Color,No Color,73.70%
+Mountain Empire Unified,2015,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,84.60%
+Oceanside Unified,2012,English Learner,San Diego,Unified School District,ELL Status,prioryear3_status,San Diego/Imperial,Increased Significantly,Yellow,Low,67.90%
+Carlsbad Unified,2012,English Learner,San Diego,Unified School District,ELL Status,prioryear3_status,San Diego/Imperial,Increased Significantly,Yellow,Low,72.70%
+San Diego Unified,2012,English Learner,San Diego,Unified School District,ELL Status,prioryear3_status,San Diego/Imperial,Increased Significantly,Yellow,Low,64.10%
+Oceanside Unified,2013,English Learner,San Diego,Unified School District,ELL Status,prioryear2_status,San Diego/Imperial,Increased Significantly,Yellow,Low,75.60%
+Carlsbad Unified,2013,English Learner,San Diego,Unified School District,ELL Status,prioryear2_status,San Diego/Imperial,Increased Significantly,Yellow,Low,74.40%
+San Diego Unified,2013,English Learner,San Diego,Unified School District,ELL Status,prioryear2_status,San Diego/Imperial,Increased Significantly,Yellow,Low,66.50%
+Oceanside Unified,2014,English Learner,San Diego,Unified School District,ELL Status,prioryear1_status,San Diego/Imperial,Increased Significantly,Yellow,Low,79.90%
+Carlsbad Unified,2014,English Learner,San Diego,Unified School District,ELL Status,prioryear1_status,San Diego/Imperial,Increased Significantly,Yellow,Low,83.60%
+San Diego Unified,2014,English Learner,San Diego,Unified School District,ELL Status,prioryear1_status,San Diego/Imperial,Increased Significantly,Yellow,Low,71.90%
+Oceanside Unified,2015,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased Significantly,Yellow,Low,82.00%
+Carlsbad Unified,2015,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased Significantly,Yellow,Low,84.60%
+San Diego Unified,2015,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased Significantly,Yellow,Low,76.30%
+Ramona City Unified,2012,English Learner,San Diego,Unified School District,ELL Status,prioryear3_status,San Diego/Imperial,No Color,No Color,No Color,61.80%
+Ramona City Unified,2013,English Learner,San Diego,Unified School District,ELL Status,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,84.20%
+Ramona City Unified,2014,English Learner,San Diego,Unified School District,ELL Status,prioryear1_status,San Diego/Imperial,No Color,No Color,No Color,54.60%
+Ramona City Unified,2015,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,80.00%
+Carlsbad Unified,2012,Black,San Diego,Unified School District,Race/Ethnicity,prioryear3_status,San Diego/Imperial,No Color,No Color,No Color,86.70%
+Carlsbad Unified,2013,Black,San Diego,Unified School District,Race/Ethnicity,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,94.70%
+Carlsbad Unified,2014,Black,San Diego,Unified School District,Race/Ethnicity,prioryear1_status,San Diego/Imperial,No Color,No Color,No Color,93.30%
+Carlsbad Unified,2015,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,82.40%
+Poway Unified,2012,SwD,San Diego,Unified School District,Disability Status,prioryear3_status,San Diego/Imperial,Declined,Orange,Medium,89.60%
+Poway Unified,2013,SwD,San Diego,Unified School District,Disability Status,prioryear2_status,San Diego/Imperial,Declined,Orange,Medium,83.20%
+Poway Unified,2014,SwD,San Diego,Unified School District,Disability Status,prioryear1_status,San Diego/Imperial,Declined,Orange,Medium,88.70%
+Poway Unified,2015,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,86.00%
+San Marcos Unified,2012,English Learner,San Diego,Unified School District,ELL Status,prioryear3_status,San Diego/Imperial,Declined,Orange,Medium,96.90%
+San Marcos Unified,2013,English Learner,San Diego,Unified School District,ELL Status,prioryear2_status,San Diego/Imperial,Declined,Orange,Medium,90.30%
+San Marcos Unified,2014,English Learner,San Diego,Unified School District,ELL Status,prioryear1_status,San Diego/Imperial,Declined,Orange,Medium,93.10%
+San Marcos Unified,2015,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,88.70%
+Vista Unified,2012,English Learner,San Diego,Unified School District,ELL Status,prioryear3_status,San Diego/Imperial,Increased Significantly,Green,Medium,77.40%
+Vista Unified,2013,English Learner,San Diego,Unified School District,ELL Status,prioryear2_status,San Diego/Imperial,Increased Significantly,Green,Medium,76.10%
+Vista Unified,2014,English Learner,San Diego,Unified School District,ELL Status,prioryear1_status,San Diego/Imperial,Increased Significantly,Green,Medium,82.60%
+Vista Unified,2015,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased Significantly,Green,Medium,87.20%
+Mountain Empire Unified,2012,English Learner,San Diego,Unified School District,ELL Status,prioryear3_status,San Diego/Imperial,No Color,No Color,No Color,69.00%
+Mountain Empire Unified,2013,English Learner,San Diego,Unified School District,ELL Status,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,73.90%
+Mountain Empire Unified,2014,English Learner,San Diego,Unified School District,ELL Status,prioryear1_status,San Diego/Imperial,No Color,No Color,No Color,78.10%
+Mountain Empire Unified,2015,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,87.00%
+Carlsbad Unified,2012,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear3_status,San Diego/Imperial,Declined,Orange,Medium,86.60%
+Carlsbad Unified,2013,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear2_status,San Diego/Imperial,Declined,Orange,Medium,89.60%
+Carlsbad Unified,2014,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear1_status,San Diego/Imperial,Declined,Orange,Medium,90.20%
+Carlsbad Unified,2015,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,85.60%
+San Diego Unified,2012,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear3_status,San Diego/Imperial,Increased,Green,Medium,82.70%
+Ramona City Unified,2012,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear3_status,San Diego/Imperial,Increased,Green,Medium,86.70%
+San Diego Unified,2013,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear2_status,San Diego/Imperial,Increased,Green,Medium,83.90%
+Ramona City Unified,2013,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear2_status,San Diego/Imperial,Increased,Green,Medium,86.60%
+San Diego Unified,2014,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear1_status,San Diego/Imperial,Increased,Green,Medium,86.40%
+Ramona City Unified,2014,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear1_status,San Diego/Imperial,Increased,Green,Medium,77.70%
+San Diego Unified,2015,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,Green,Medium,87.70%
+Ramona City Unified,2015,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,Green,Medium,86.70%
+Mountain Empire Unified,2012,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear3_status,San Diego/Imperial,Increased Significantly,Green,Medium,71.90%
+Mountain Empire Unified,2013,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear2_status,San Diego/Imperial,Increased Significantly,Green,Medium,82.40%
+Mountain Empire Unified,2014,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear1_status,San Diego/Imperial,Increased Significantly,Green,Medium,81.00%
+Mountain Empire Unified,2015,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased Significantly,Green,Medium,88.30%
+Vista Unified,2012,Black,San Diego,Unified School District,Race/Ethnicity,prioryear3_status,San Diego/Imperial,Increased,Green,Medium,79.70%
+San Diego Unified,2012,Black,San Diego,Unified School District,Race/Ethnicity,prioryear3_status,San Diego/Imperial,Increased,Green,Medium,83.90%
+Vista Unified,2013,Black,San Diego,Unified School District,Race/Ethnicity,prioryear2_status,San Diego/Imperial,Increased,Green,Medium,96.60%
+San Diego Unified,2013,Black,San Diego,Unified School District,Race/Ethnicity,prioryear2_status,San Diego/Imperial,Increased,Green,Medium,83.00%
+Vista Unified,2014,Black,San Diego,Unified School District,Race/Ethnicity,prioryear1_status,San Diego/Imperial,Increased,Green,Medium,79.10%
+San Diego Unified,2014,Black,San Diego,Unified School District,Race/Ethnicity,prioryear1_status,San Diego/Imperial,Increased,Green,Medium,86.60%
+Vista Unified,2015,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Green,Medium,87.50%
+San Diego Unified,2015,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Green,Medium,86.00%
+Valley Center-Pauma Unified,2012,English Learner,San Diego,Unified School District,ELL Status,prioryear3_status,San Diego/Imperial,Declined,Yellow,High,96.60%
+Valley Center-Pauma Unified,2013,English Learner,San Diego,Unified School District,ELL Status,prioryear2_status,San Diego/Imperial,Declined,Yellow,High,94.40%
+Valley Center-Pauma Unified,2014,English Learner,San Diego,Unified School District,ELL Status,prioryear1_status,San Diego/Imperial,Declined,Yellow,High,95.10%
+Valley Center-Pauma Unified,2015,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Declined,Yellow,High,93.80%
+Poway Unified,2012,English Learner,San Diego,Unified School District,ELL Status,prioryear3_status,San Diego/Imperial,Increased,Green,High,84.10%
+Poway Unified,2013,English Learner,San Diego,Unified School District,ELL Status,prioryear2_status,San Diego/Imperial,Increased,Green,High,90.60%
+Poway Unified,2014,English Learner,San Diego,Unified School District,ELL Status,prioryear1_status,San Diego/Imperial,Increased,Green,High,92.80%
+Poway Unified,2015,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased,Green,High,92.30%
+Coronado Unified,2012,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear3_status,San Diego/Imperial,No Color,No Color,No Color,85.70%
+Coronado Unified,2013,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,92.30%
+Coronado Unified,2014,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear1_status,San Diego/Imperial,No Color,No Color,No Color,100.00%
+Coronado Unified,2015,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,94.40%
+Vista Unified,2012,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear3_status,San Diego/Imperial,Increased,Green,High,82.20%
+Vista Unified,2013,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear2_status,San Diego/Imperial,Increased,Green,High,88.70%
+Vista Unified,2014,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear1_status,San Diego/Imperial,Increased,Green,High,88.00%
+Vista Unified,2015,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,Green,High,90.70%
+Oceanside Unified,2012,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear3_status,San Diego/Imperial,Increased Significantly,Blue,High,83.50%
+Oceanside Unified,2013,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear2_status,San Diego/Imperial,Increased Significantly,Blue,High,87.50%
+Oceanside Unified,2014,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear1_status,San Diego/Imperial,Increased Significantly,Blue,High,89.90%
+Oceanside Unified,2015,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased Significantly,Blue,High,92.90%
+Warner Unified,2012,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear3_status,San Diego/Imperial,No Color,No Color,No Color,81.80%
+Borrego Springs Unified,2012,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear3_status,San Diego/Imperial,No Color,No Color,No Color,78.60%
+Warner Unified,2013,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,91.70%
+Borrego Springs Unified,2013,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,97.00%
+Warner Unified,2014,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear1_status,San Diego/Imperial,No Color,No Color,No Color,85.70%
+Borrego Springs Unified,2014,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear1_status,San Diego/Imperial,No Color,No Color,No Color,72.70%
+Warner Unified,2015,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,92.30%
+Borrego Springs Unified,2015,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,92.30%
+San Marcos Unified,2012,Black,San Diego,Unified School District,Race/Ethnicity,prioryear3_status,San Diego/Imperial,Declined,Yellow,High,100.00%
+San Marcos Unified,2013,Black,San Diego,Unified School District,Race/Ethnicity,prioryear2_status,San Diego/Imperial,Declined,Yellow,High,95.50%
+San Marcos Unified,2014,Black,San Diego,Unified School District,Race/Ethnicity,prioryear1_status,San Diego/Imperial,Declined,Yellow,High,93.80%
+San Marcos Unified,2015,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,Yellow,High,92.50%
+Oceanside Unified,2012,Black,San Diego,Unified School District,Race/Ethnicity,prioryear3_status,San Diego/Imperial,Maintained,Green,High,88.60%
+Oceanside Unified,2013,Black,San Diego,Unified School District,Race/Ethnicity,prioryear2_status,San Diego/Imperial,Maintained,Green,High,89.00%
+Oceanside Unified,2014,Black,San Diego,Unified School District,Race/Ethnicity,prioryear1_status,San Diego/Imperial,Maintained,Green,High,91.70%
+Oceanside Unified,2015,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Maintained,Green,High,90.60%
+Valley Center-Pauma Unified,2012,Amer Indian,San Diego,Unified School District,Race/Ethnicity,prioryear3_status,San Diego/Imperial,No Color,No Color,No Color,92.00%
+Valley Center-Pauma Unified,2013,Amer Indian,San Diego,Unified School District,Race/Ethnicity,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,95.00%
+Valley Center-Pauma Unified,2014,Amer Indian,San Diego,Unified School District,Race/Ethnicity,prioryear1_status,San Diego/Imperial,No Color,No Color,No Color,95.00%
+Valley Center-Pauma Unified,2015,Amer Indian,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,94.10%
+San Diego Unified,2012,Amer Indian,San Diego,Unified School District,Race/Ethnicity,prioryear3_status,San Diego/Imperial,No Color,No Color,No Color,100.00%
+San Diego Unified,2013,Amer Indian,San Diego,Unified School District,Race/Ethnicity,prioryear2_status,San Diego/Imperial,No Color,No Color,No Color,73.70%
+San Diego Unified,2014,Amer Indian,San Diego,Unified School District,Race/Ethnicity,prioryear1_status,San Diego/Imperial,No Color,No Color,No Color,82.40%
+San Diego Unified,2015,Amer Indian,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,94.40%
+Coronado Unified,2012,SwD,San Diego,Unified School District,Disability Status,prioryear3_status,San Diego/Imperial,Increased Significantly,Blue,Very High,62.50%
+Coronado Unified,2013,SwD,San Diego,Unified School District,Disability Status,prioryear2_status,San Diego/Imperial,Increased Significantly,Blue,Very High,91.70%
+Coronado Unified,2014,SwD,San Diego,Unified School District,Disability Status,prioryear1_status,San Diego/Imperial,Increased Significantly,Blue,Very High,94.90%
+Coronado Unified,2015,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Increased Significantly,Blue,Very High,97.10%
+San Marcos Unified,2012,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear3_status,San Diego/Imperial,Maintained,Blue,Very High,97.80%
+Poway Unified,2012,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear3_status,San Diego/Imperial,Maintained,Blue,Very High,94.90%
+Valley Center-Pauma Unified,2012,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear3_status,San Diego/Imperial,Maintained,Blue,Very High,96.10%
+San Marcos Unified,2013,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear2_status,San Diego/Imperial,Maintained,Blue,Very High,95.70%
+Poway Unified,2013,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear2_status,San Diego/Imperial,Maintained,Blue,Very High,94.90%
+Valley Center-Pauma Unified,2013,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear2_status,San Diego/Imperial,Maintained,Blue,Very High,98.20%
+San Marcos Unified,2014,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear1_status,San Diego/Imperial,Maintained,Blue,Very High,95.80%
+Poway Unified,2014,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear1_status,San Diego/Imperial,Maintained,Blue,Very High,96.30%
+Valley Center-Pauma Unified,2014,Econ Disadv,San Diego,Unified School District,Economic Status,prioryear1_status,San Diego/Imperial,Maintained,Blue,Very High,96.80%
+San Marcos Unified,2015,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Blue,Very High,95.90%
+Poway Unified,2015,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Blue,Very High,96.00%
+Valley Center-Pauma Unified,2015,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Blue,Very High,97.80%
+Poway Unified,2012,Black,San Diego,Unified School District,Race/Ethnicity,prioryear3_status,San Diego/Imperial,Maintained,Blue,Very High,98.50%
+Poway Unified,2013,Black,San Diego,Unified School District,Race/Ethnicity,prioryear2_status,San Diego/Imperial,Maintained,Blue,Very High,97.70%
+Poway Unified,2014,Black,San Diego,Unified School District,Race/Ethnicity,prioryear1_status,San Diego/Imperial,Maintained,Blue,Very High,95.30%
+Poway Unified,2015,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Maintained,Blue,Very High,97.00%
+Carlsbad Unified,2016,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Increased Significantly,Red,Very Low,65.00%
+San Diego Unified,2016,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Increased Significantly,Red,Very Low,61.20%
+Ramona City Unified,2016,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Increased Significantly,Red,Very Low,66.00%
+Oceanside Unified,2016,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Declined,Orange,Low,69.70%
+Valley Center-Pauma Unified,2016,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,82.80%
+Mountain Empire Unified,2016,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,75.00%
+Vista Unified,2016,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,74.10%
+Oceanside Unified,2016,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Maintained,Orange,Low,78.50%
+Carlsbad Unified,2016,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,82.90%
+San Diego Unified,2016,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased Significantly,Yellow,Low,84.10%
+Warner Unified,2016,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,81.80%
+Mountain Empire Unified,2016,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined,Orange,Low,79.80%
+Poway Unified,2016,Amer Indian,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,83.30%
+Poway Unified,2016,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,85.10%
+Vista Unified,2016,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased Significantly,Green,Medium,88.20%
+Ramona City Unified,2016,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,85.70%
+Mountain Empire Unified,2016,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,86.20%
+Oceanside Unified,2016,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,88.40%
+Borrego Springs Unified,2016,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,85.70%
+Ramona City Unified,2016,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,Green,Medium,88.20%
+Valley Center-Pauma Unified,2016,Amer Indian,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,88.90%
+San Diego Unified,2016,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Green,Medium,87.80%
+San Diego Unified,2016,Amer Indian,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,85.70%
+Coronado Unified,2016,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Maintained,Green,High,94.40%
+San Marcos Unified,2016,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Increased Significantly,Blue,High,94.30%
+Poway Unified,2016,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Declined,Yellow,High,90.80%
+Valley Center-Pauma Unified,2016,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Declined,Yellow,High,92.50%
+Carlsbad Unified,2016,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,Green,High,92.20%
+Vista Unified,2016,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,Green,High,90.90%
+San Diego Unified,2016,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,Green,High,90.50%
+Oceanside Unified,2016,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Maintained,Green,High,91.00%
+Vista Unified,2016,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Green,High,93.50%
+San Marcos Unified,2016,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased Significantly,Blue,Very High,97.40%
+Coronado Unified,2016,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,95.00%
+Valley Center-Pauma Unified,2016,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined,Blue,Very High,95.60%
+Poway Unified,2016,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Blue,Very High,96.10%
+San Marcos Unified,2016,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,Blue,Very High,99.10%
+Poway Unified,2016,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Maintained,Blue,Very High,96.10%
+San Marcos Unified,2016,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Blue,Very High,97.40%
+Bonsall Unified,2018,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,66.70%
+Vista Unified,2018,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Declined Significantly,Red,Very Low,62.10%
+San Diego Unified,2018,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Increased,Red,Very Low,62.50%
+Oceanside Unified,2018,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Declined Significantly,Red,Low,67.70%
+Carlsbad Unified,2018,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Declined,Orange,Low,72.60%
+Ramona City Unified,2018,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,70.40%
+Valley Center-Pauma Unified,2018,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,79.20%
+Vista Unified,2018,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Declined,Orange,Low,70.60%
+San Diego Unified,2018,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Declined,Orange,Low,75.80%
+Valley Center-Pauma Unified,2018,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Declined,Orange,Low,70.30%
+Oceanside Unified,2018,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Maintained,Orange,Low,69.10%
+Carlsbad Unified,2018,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,76.50%
+Bonsall Unified,2018,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,78.10%
+Coronado Unified,2018,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined,Orange,Low,77.80%
+Coronado Unified,2018,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,83.30%
+San Marcos Unified,2018,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Maintained,Yellow,Medium,82.30%
+Poway Unified,2018,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Increased,Green,Medium,83.40%
+Mountain Empire Unified,2018,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,81.80%
+Borrego Springs Unified,2018,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,83.30%
+San Marcos Unified,2018,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Declined Significantly,Orange,Medium,85.40%
+Poway Unified,2018,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased,Green,Medium,83.30%
+Ramona City Unified,2018,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,82.80%
+Oceanside Unified,2018,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,82.30%
+Borrego Springs Unified,2018,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,89.50%
+San Diego Unified,2018,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Yellow,Medium,86.20%
+Valley Center-Pauma Unified,2018,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Yellow,Medium,87.10%
+Ramona City Unified,2018,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Yellow,Medium,87.10%
+Vista Unified,2018,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,Green,Medium,86.90%
+Oceanside Unified,2018,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,Orange,Medium,85.40%
+Poway Unified,2018,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,Orange,Medium,89.00%
+San Diego Unified,2018,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Maintained,Yellow,Medium,87.40%
+Valley Center-Pauma Unified,2018,Amer Indian,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,85.00%
+Mountain Empire Unified,2018,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,91.30%
+San Marcos Unified,2018,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined,Yellow,High,92.40%
+Warner Unified,2018,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,91.70%
+Carlsbad Unified,2018,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,Green,High,91.20%
+Poway Unified,2018,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,Green,High,90.50%
+Mountain Empire Unified,2018,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,Green,High,94.50%
+San Diego Unified,2018,Amer Indian,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,92.30%
+San Marcos Unified,2018,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Maintained,Blue,Very High,95.20%
+Vista Unified,2018,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Blue,Very High,98.00%
+Warner Unified,2019,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,41.70%
+Vista Unified,2019,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Declined,Red,Very Low,60.60%
+San Diego Unified,2019,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Declined,Red,Very Low,59.00%
+Vista Unified,2019,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Declined Significantly,Red,Very Low,59.10%
+Oceanside Unified,2019,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Declined,Red,Very Low,67.30%
+Warner Unified,2019,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,26.20%
+Coronado Unified,2019,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,75.00%
+Valley Center-Pauma Unified,2019,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,75.90%
+Mountain Empire Unified,2019,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,72.70%
+Carlsbad Unified,2019,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,78.90%
+Ramona City Unified,2019,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,72.20%
+Bonsall Unified,2019,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,78.60%
+Oceanside Unified,2019,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Increased Significantly,Yellow,Low,74.10%
+Carlsbad Unified,2019,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Declined,Orange,Low,71.80%
+San Diego Unified,2019,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Maintained,Orange,Low,77.40%
+Valley Center-Pauma Unified,2019,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased,Yellow,Low,72.30%
+Bonsall Unified,2019,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined,Orange,Low,70.50%
+Poway Unified,2019,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,81.20%
+San Marcos Unified,2019,SwD,San Diego,Unified School District,Disability Status,currstatus,San Diego/Imperial,Increased,Green,Medium,86.40%
+San Marcos Unified,2019,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased,Green,Medium,88.70%
+Poway Unified,2019,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased,Green,Medium,88.20%
+Ramona City Unified,2019,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased,Green,Medium,85.30%
+Vista Unified,2019,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,83.50%
+Poway Unified,2019,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,88.60%
+Valley Center-Pauma Unified,2019,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,84.70%
+Borrego Springs Unified,2019,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined,Orange,Medium,85.30%
+San Diego Unified,2019,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Yellow,Medium,86.40%
+Ramona City Unified,2019,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Yellow,Medium,87.10%
+Oceanside Unified,2019,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,Green,Medium,85.70%
+Vista Unified,2019,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,Orange,Medium,87.90%
+San Diego Unified,2019,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,Orange,Medium,85.60%
+San Diego Unified,2019,Amer Indian,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,81.00%
+Valley Center-Pauma Unified,2019,Amer Indian,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,81.30%
+Mountain Empire Unified,2019,English Learner,San Diego,Unified School District,ELL Status,currstatus,San Diego/Imperial,No Color,No Color,No Color,93.60%
+Mountain Empire Unified,2019,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined,Yellow,High,90.50%
+Carlsbad Unified,2019,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Green,High,91.70%
+San Marcos Unified,2019,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Green,High,93.00%
+Oceanside Unified,2019,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Green,High,93.00%
+Poway Unified,2019,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Green,High,91.00%
+Coronado Unified,2019,Econ Disadv,San Diego,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,Blue,Very High,97.00%
+Poway Unified,2019,Amer Indian,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,100.00%
+Carlsbad Unified,2019,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,No Color,No Color,No Color,100.00%
+San Marcos Unified,2019,Black,San Diego,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Maintained,Blue,Very High,95.80%

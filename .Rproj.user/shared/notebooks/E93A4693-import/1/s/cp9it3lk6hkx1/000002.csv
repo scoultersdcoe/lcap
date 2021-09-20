@@ -1,0 +1,8 @@
+"0","teach_stu_ratio <- read.csv(file = here(""data"", ""district_ratios.csv"")) #see script"
+"0","susp <- read.csv(file = here(""data"", ""all_districts_susp.csv""))"
+"0","grad_rate <- read.csv(file = here(""data"", ""all_districts_grad_rate2.csv""))"
+"0","el_progress <- read.csv(file = here(""data"", ""all_districts_el_progress.csv""))"
+"0","achv_gap <- read.csv(file = here(""data"", ""all_districts_achv_gap2.csv""))"
+"0","chronic <- read.csv(file = here(""data"", ""all_districts_chronic2.csv""))"
+"0","drop <- read.csv(file = here(""data"", ""all_districts_dropout_rate.csv""))"
+"0","ag <- read.csv(file = here(""data"", 'uc_ag_rate_2.csv'))"

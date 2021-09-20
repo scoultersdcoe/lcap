@@ -1,0 +1,7 @@
+"0","goals1 <- goals %>%"
+"0","  filter(lea == params$district)"
+"0",""
+"0","# Values"
+"0","apportion <- goals1$increased_apportionment_based_on_the_enrollment_of_foster_youth_english_learners_and_low_income_students"
+"0",""
+"0","valueBox(apportion, caption = ""Increased Apportionment"", icon = ""fa-tag"")"

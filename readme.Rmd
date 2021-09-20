@@ -1,0 +1,360 @@
+---
+title: "readme"
+author: "Shannon Coulter"
+date: "Last run: `r format(Sys.time(), '%F')`"
+output: html_document
+---
+
+## TABLE OF CONTENTS
+* DATASET TITLE
+* AUTHORS AND AFFILIATIONS
+* LANGUAGE
+* SUMMARY/ABSTRACT
+* KEYWORDS
+* FILE ORGANIZATION
+* DATASET DESCRIPTION 
+* DATA DICTIONARY
+* DATA ANALYSIS
+* SHARING & ACCESSING INFORMATION
+* ADDITIONAL NOTES/COMMENTS
+
+### DATASET TITLE
+
+The Local Control Accountability Plan (LCAP) dataset compiled from administrative datasets located on the Forecast 5 website. (https://forecast5analytics.com)
+
+### AUTHORS AND AFFILIATIONS
+
+* Name: Shannon Coulter
+* Organization: San Diego County Office of Education
+* Email: scoulter@sdcoe.net
+
+### LANGUAGE
+
+* English
+
+### SUMMARY/ABSTRACT
+
+We developed this dataset for use with after-action visits by SDCOE staff and local district leadership. The data supports SDCOE staff in discussions with local leadership regarding LCAP planing and priorities.  
+
+
+* The repository that houses the dataset is also available at:
+
+  * https://github.com/scoultersdcoe/lcap
+
+### KEYWORDS
+
+accountability; local control; ESSA
+
+### FILE ORGANIZATION
+
+* This dataset consists of 3 folders containing 23 files:
+  * 1 Readme file 
+  * 7 files of figures/tables 
+  * 10 data files 
+  * 3 .R script files
+  * 2 .Rmd files
+
+* For the initial input data files see source file ***import.Rmd***. 
+
+* Script files are named for chart types or data files. 
+
+* CSV files appended with “plot” are the exact data used in the dashboard. 
+
+* Files necessary to create Figures
+  * Figure 1:
+  * Figure 2:
+  * Figure 3: 
+  * Figure 4: 
+  * Figure 5: 
+
+* Files necessary to create Tables
+  * Table 1: 
+  * Table 2: 
+
+### DATASET DESCRIPTION 
+
+#### Data sources: 
+
+* We obtained the initial metadata through URLs via Forecast 5's website.
+
+* We downloaded and cleaned 10 administrative datasets  from the Forecast 5 website. We also were provided a list of LCAP goals by LEA that we combined with the administrative data.  Each dataset can be accessed at https://forecast5analytics.com.
+
+#### Data collection dates:
+
+* We retrieved the data from the Forecast 5 website on August 25th 2020. Many of these datasets contain multiple years of data. The most recent years, however, were not available due to COVID-19. 
+
+* We will access this data annually in August.
+
+### DATA DICTIONARY
+
+#### Variables for final the 8 output CSV files used for the analyses include:
+
+*teach_stu_ratio*
+
+* **year** = the year the teacher/student demographics count in "2019" format.
+          
+* **race_eth** = race/ethnicity labels.
+               
+* **dist_name** = name of the school district.
+
+* **gap** = the difference between the teacher race/ethnicity % and the student %.
+
+* **student** = the % of students in particular race/ethnicity group.
+
+* **teacher** = the % of teachers in particular race/ethnicity group.
+
+*susp*
+
+* **year** = the year the teacher/student demographics count in "2019" format.
+          
+* **enrollment_type** = race/ethnicity labels.
+               
+* **district** = name of the school district.
+
+* **county** = name of the county.
+
+* **district_classification** = the type of district.
+
+* **enrollment_breakdown** = the category of the enrollment type (such as Economic Status).
+
+* **metric** = a code for current status or prior status.
+
+* **region** = the region where the school district is located.
+                 
+* **col_label** = the description of performance such as Declined.   
+     
+* **color_desc** = the color associated with the performance such as Orange.
+
+* **performance_level_label** = the description of performance such as Very Low, maintained, which corresponds to color and label.
+
+* **row_label** = the label associated with the row such as High or Very Low.
+
+* **status** = a percentage associated with current status.
+
+*grad rate*
+
+* **year** = the year the teacher/student demographics count in "2019" format.
+          
+* **enrollment_type** = race/ethnicity labels.
+               
+* **district** = name of the school district.
+
+* **county** = name of the county.
+
+* **district_classification** = the type of district.
+
+* **enrollment_breakdown** = the category of the enrollment type (such as Economic Status).
+
+* **metric** = a code for current status or prior status.
+
+* **region** = the region where the school district is located.
+                 
+* **col_label** = the description of performance such as Declined.   
+     
+* **color_desc** = the color associated with the performance such as Orange.
+
+* **performance_level_label** = the description of performance such as Very Low, maintained, which corresponds to color and label.
+
+* **row_label** = the label associated with the row such as High or Very Low.
+
+* **status** = a percentage associated with current status.
+
+*el_progress*
+
+* **year** = the year the teacher/student demographics count in "2019" format.
+          
+* **enrollment_type** = race/ethnicity labels.
+               
+* **district** = name of the school district.
+
+* **county** = name of the county.
+
+* **district_classification** = the type of district.
+
+* **enrollment_breakdown** = the category of the enrollment type (such as Economic Status).
+
+* **metric** = a code for current status or prior status.
+
+* **region** = the region where the school district is located.
+                 
+* **col_label** = the description of performance such as Declined.   
+     
+* **color_desc** = the color associated with the performance such as Orange.
+
+* **performance_level_label** = the description of performance such as Very Low, maintained, which corresponds to color and label.
+
+* **row_label** = the label associated with the row such as High or Very Low.
+
+* **status** = a percentage associated with current status.
+
+*achv_gap*
+
+* **year** = the year the teacher/student demographics count in "2019" format.
+               
+* **district** = name of the school district.
+
+* **neg_measure_names** = a label for student subgroup such as Economically Disadvantaged.
+
+* **pos_measure_names** = a label for student subgroup such as Not-Economically Disadvantaged.
+
+* **year_1** = a label for the first year.
+
+* **achievement_gap** = a percentage for the difference in the gap between subgroups.
+
+* **no_choices** = a percentage for subgroup such as Economically Disadvantaged.
+
+* **pos_choices** = a percentage for  subgroup such as Non-Economically Disadvantaged.
+
+* **Disadvantaged** = a percentage for subgroup such as Economically Disadvantaged.
+
+* **Non_Disadvangated** = a percentage for  subgroup such as Non-Economically Disadvantaged.
+
+*chronic*
+
+* **year** = the year the teacher/student demographics count in "2019" format.
+
+* **data_set** = Season associated with data such as Fall 2019.
+          
+* **enrollment_type** = race/ethnicity labels.
+               
+* **district** = name of the school district.
+
+* **county** = name of the county.
+
+* **district_classification** = the type of district.
+
+* **enrollment_breakdown** = the category of the enrollment type (such as Economic Status).
+
+* **metric** = a code for current status or prior status.
+
+* **region** = the region where the school district is located.
+                 
+* **col_label** = the description of performance such as Declined.   
+     
+* **color_desc** = the color associated with the performance such as Orange.
+
+* **absenteeism_indicator** = a percentage associated with chronic absenteeism.
+
+* **row_label** = the label associated with the row such as High or Very Low.
+
+* **change** = a percentage associated with difference between current and prior status.
+
+*drop*
+
+* **year** = the year the teacher/student demographics count in "2019" format.
+          
+* **diploma_type** = indicator of whether student met UC CSU grade requirements.
+               
+* **district** = name of the school district.
+
+* **county** = name of the county.
+
+* **district_classification** = the type of district.
+
+* **breakdown_category** = the category of the enrollment type (such as Economic Status).
+
+* **breakdown_type** = the subgroup category such as socioeconomically disadvantaged.
+
+* **longitudinal_rate** = a cateogry for 4-year.
+
+* **region** = the region where the school district is located.
+
+* **result** = a percentage assoicated with status.
+
+* **result_2** = a percentage associated with status for ggplot.
+
+* **status** = a percentage associated with current status.
+
+*ag*
+
+* **year** = the year the teacher/student demographics count in "2019" format.
+          
+* **diploma_type** = indicator of whether student met UC CSU grade requirements.
+               
+* **district** = name of the school district.
+
+* **county** = name of the county.
+
+* **district_classification** = the type of district.
+
+* **breakdown_category** = the category of the enrollment type (such as Economic Status).
+
+* **breakdown_type** = the subgroup category such as socioeconomically disadvantaged.
+
+* **longitudinal_rate** = a cateogry for 4-year.
+
+* **region** = the region where the school district is located.
+
+* **result** = a percentage assoicated with status.
+
+* **result_2** = a percentage associated with status for ggplot.
+
+* **status** = a percentage associated with current status.
+
+*goals*
+
+* **lea** = name of the school district.
+          
+* **percentage_to_increase...** = percentage associated with fiscal change to LCAP.
+               
+* **increased_apportionment** = $ associated with percentage change.
+
+* **lcap_goal_1** = LCAP goal as written in district LCAP.
+
+* **lcap_goal_2** = LCAP goal as written in district LCAP.
+
+* **lcap_goal_3** = LCAP goal as written in district LCAP.
+
+### DATA ANALYSIS
+
+#### Program used:
+* R version R version 4.0.3 (2020-10-10)
+* RStudio 1.3.1093
+* Platform: x86_64-w64-mingw32 (64-bit)
+* Running under: Windows 10
+* Attached base packages:
+  * stats
+  * graphics
+  * devices
+  * utils
+  * datasets 
+  * methods
+  * base     
+* Other attached packages:
+  * dplyr
+  * readxl
+  * tidyr
+  * ggplot2 
+  * tidyverse
+  * stringr
+  * lubridate
+
+#### There are 2 source files that work sequentially:
+
+**import.Rmd** Purpose: Import each of the data files associated with final ***dashboard.Rmd***.
+
+  * Package(s): tidyverse, here, lubridate, here, janitor, ggthemes, ggrepel
+  
+  * Input file(s): district_ratios.csv, all_districts_susp.csv, all_districts_el_progress.csv, all_districts_achv_gaps2.csv, all_districts_chronic2.csv, all_districts_dropout_rate.csv, uc_ag_rate_2.csv
+   
+   * Output file(s): teach_stu_ratio, susp, grad_rate, el_progress, achv_gap, chronic, drop, ag, goals
+
+**dashboard.Rmd** Purpose: Display the combined datasets in a Flexdashboard.
+
+  * Package(s): tidyverse, plotly, plyr, flexdashboard, here, shiny, crosstalk, ggthemes, htmltools, ggrepel, janitor
+  
+  * Input file(s): teach_stu_ratio, susp, grad_rate, el_progress, achv_gap, chronic, drop, ag, goals
+  
+  * Output file(s): 
+
+
+### SHARING & ACCESSING INFORMATION
+
+* **Formally:** Creative Commons Open Source (CC0) to facilitate ease-of-use
+* **Informally:** The URL is:
+
+     *  https://app.netlify.com/sites/cajonpark/overview
+
+### ADDITIONAL NOTES/COMMENTS
+
+Please let me know if any errors in the dataset are found. 

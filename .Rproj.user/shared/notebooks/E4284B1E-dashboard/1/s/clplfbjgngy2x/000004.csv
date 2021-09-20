@@ -1,0 +1,6 @@
+"0","goals <- goals %>%
+  mutate(lea = gsub("" School District"", """", .))
+"
+"2","Error in `[[<-.data.frame`(`*tmp*`, col, value = c(""c(\""Alpine Union\"", \""Bonsall Unified\"", \""Borrego Springs Unified\"", \""Cajon Valley Union\"", \""Cardiff\"", \""Carlsbad Unified\"", \""Chula Vista Elementary\"", \""Coronado Unified\"", \""Dehesa\"", \""Del Mar Union\"", \""Encinitas Union\"", \""Escondido Union High\"", \""Escondido Union\"", \""Fallbrook Union Elementary\"", \n\""Fallbrook Union High\"", \""Grossmont Union High\"", \""Jamul-Dulzura Union\"", \""Julian Union High\"", \""Julian Union Elementary\"", \""La Mesa-Spring Valley\"", \""Lakeside Union\"", \""Lemon Grove\"", \""Mountain Empire Unified\"", \""National\"", \""Oceanside Unified\"", \""Poway Unified\"", \""Ramona Unified\"", \""Rancho Santa Fe Elementary\"", \n\""San Diego Unified\"", \""San Dieguito Union High\"", \""San Marcos Unified\"", \""San Pasqual Union\"", \""San Ysidro\"", \""Santee\"", \""Solana Beach\"", \""South Bay Union\"", \""Spencer Valley\"", \""Sweetwater Union High\"", \""Vallecitos\"", \""Valley Center-Pauma Unified\"", \""Vista Unified\"", \""Warner Unified\"")"",  : 
+  replacement has 10 rows, data has 42
+"

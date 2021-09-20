@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1630599276226.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "214519376",
+    "id" : "B0F67995",
+    "lastKnownWriteTime" : 1630600543,
+    "last_content_update" : 1630600543750,
+    "path" : "C:/Users/scoulter/OneDrive - San Diego County Superintendent of Schools/Desktop/R Projects/LCAP/src/dashboard.Rmd",
+    "project_path" : "src/dashboard.Rmd",
+    "properties" : {
+        "cursorPosition" : "252,59",
+        "last_setup_crc32" : "E915804B3228a89e",
+        "scrollLine" : "247"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

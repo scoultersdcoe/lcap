@@ -1,0 +1,112 @@
+Color Desc,District,Enrollment Type,County,Data Set,District Classification,Enrollment Breakdown,Metric,Region,Col Label,Row Label,Absenteeism Indicator,Change %
+Green,Vallecitos Elementary,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Declined,Low,4.70%,-1.10%
+Green,Solana Beach Elementary,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Declined,Low,3.40%,-0.50%
+Green,Solana Beach Elementary,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Declined,Low,4.70%,-1.00%
+Green,SBC - High Tech High,English Learner,San Diego,Fall 2019,Statewide Benefit Charter,ELL Status,currstatus,San Diego/Imperial,Declined,Low,4.60%,-1.20%
+Green,Coronado Unified,Black,San Diego,Fall 2019,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Maintained,Low,3.00%,-0.30%
+Green,Bonsall Unified,English Learner,San Diego,Fall 2019,Unified School District,ELL Status,currstatus,San Diego/Imperial,Declined,Low,4.90%,-1.70%
+Blue,San Pasqual Union Elementary,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Declined,Very Low,0.00%,-2.70%
+Blue,San Pasqual Union Elementary,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Declined,Very Low,2.40%,-0.90%
+Green,SBC - High Tech High,Black,San Diego,Fall 2019,Statewide Benefit Charter,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Very Low,2.40%,2.40%
+Blue,Warner Unified,English Learner,San Diego,Fall 2019,Unified School District,ELL Status,currstatus,San Diego/Imperial,Declined,Very Low,0.00%,-3.30%
+Green,Cardiff Elementary,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Declined,Medium,8.20%,-4.60%
+Green,Del Mar Union Elementary,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Declined,Medium,5.20%,-2.20%
+Green,Fallbrook Union Elementary,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Declined,Medium,7.40%,-1.90%
+Green,Fallbrook Union Elementary,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Declined,Medium,8.10%,-1.70%
+Green,Del Mar Union Elementary,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Declined,Medium,7.70%,-0.50%
+Green,Lemon Grove,Amer Indian,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,Medium,6.50%,-10.60%
+Green,Chula Vista Elementary,Amer Indian,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,Medium,6.50%,-3.90%
+Green,Encinitas Union Elementary,Black,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,Medium,9.10%,-4.00%
+Green,Del Mar Union Elementary,Black,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,Medium,7.70%,-0.60%
+Orange,Sweetwater Union High,English Learner,San Diego,Fall 2019,High School District,ELL Status,currstatus,San Diego/Imperial,Increased,Medium,9.90%,1.20%
+Orange,San Dieguito Union High,English Learner,San Diego,Fall 2019,High School District,ELL Status,currstatus,San Diego/Imperial,Increased,Medium,10.00%,1.80%
+Orange,Sweetwater Union High,Econ Disadv,San Diego,Fall 2019,High School District,Economic Status,currstatus,San Diego/Imperial,Increased,Medium,9.70%,1.40%
+Orange,Sweetwater Union High,Black,San Diego,Fall 2019,High School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Medium,7.70%,0.50%
+Green,SBC - High Tech High,Econ Disadv,San Diego,Fall 2019,Statewide Benefit Charter,Economic Status,currstatus,San Diego/Imperial,Declined,Medium,5.40%,-0.50%
+Orange,Vista Unified,English Learner,San Diego,Fall 2019,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased,Medium,7.70%,1.20%
+Orange,Coronado Unified,English Learner,San Diego,Fall 2019,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased,Medium,9.40%,6.00%
+Orange,Vista Unified,Econ Disadv,San Diego,Fall 2019,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,Medium,9.10%,0.70%
+Yellow,Carlsbad Unified,English Learner,San Diego,Fall 2019,Unified School District,ELL Status,currstatus,San Diego/Imperial,Maintained,Medium,8.80%,-0.40%
+Yellow,San Marcos Unified,English Learner,San Diego,Fall 2019,Unified School District,ELL Status,currstatus,San Diego/Imperial,Maintained,Medium,7.10%,-0.40%
+Yellow,Poway Unified,English Learner,San Diego,Fall 2019,Unified School District,ELL Status,currstatus,San Diego/Imperial,Maintained,Medium,7.70%,-0.20%
+Yellow,Coronado Unified,Econ Disadv,San Diego,Fall 2019,Unified School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Medium,7.00%,-0.40%
+Yellow,San Marcos Unified,Black,San Diego,Fall 2019,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Maintained,Medium,8.10%,0.00%
+Yellow,Bonsall Unified,Black,San Diego,Fall 2019,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Maintained,Medium,7.50%,0.40%
+Green,Bonsall Unified,Econ Disadv,San Diego,Fall 2019,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined,Medium,9.70%,-2.10%
+Green,San Marcos Unified,Econ Disadv,San Diego,Fall 2019,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined,Medium,8.50%,-1.10%
+Yellow,Lakeside Union Elementary (San Diego),English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Declined,High,11.80%,-1.50%
+Yellow,South Bay Union,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Declined,High,14.40%,-0.70%
+Yellow,Dehesa Elementary,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Declined,High,14.10%,-4.20%
+Yellow,Santee,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Declined,High,10.60%,-0.60%
+Yellow,National Elementary,Black,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,High,17.60%,-11.00%
+Yellow,Santee,Black,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,High,12.20%,-0.50%
+Yellow,National Elementary,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Declined Significantly,High,11.60%,-15.70%
+Yellow,National Elementary,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Declined Significantly,High,12.60%,-16.00%
+Yellow,Julian Union Elementary,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Declined Significantly,High,17.40%,-8.20%
+Orange,San Dieguito Union High,Econ Disadv,San Diego,Fall 2019,High School District,Economic Status,currstatus,San Diego/Imperial,Maintained,High,10.70%,-0.30%
+Red,Mountain Empire Unified,English Learner,San Diego,Fall 2019,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased Significantly,High,18.90%,6.00%
+Red,Borrego Springs Unified,English Learner,San Diego,Fall 2019,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased Significantly,High,13.50%,8.90%
+Red,Borrego Springs Unified,Econ Disadv,San Diego,Fall 2019,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased Significantly,High,15.80%,11.10%
+Orange,San Diego Unified,English Learner,San Diego,Fall 2019,Unified School District,ELL Status,currstatus,San Diego/Imperial,Increased,High,15.60%,1.80%
+Orange,Valley Center-Pauma Unified,Econ Disadv,San Diego,Fall 2019,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,High,18.20%,0.70%
+Orange,Carlsbad Unified,Econ Disadv,San Diego,Fall 2019,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,High,11.90%,0.90%
+Orange,Poway Unified,Econ Disadv,San Diego,Fall 2019,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,High,11.80%,1.10%
+Orange,San Diego Unified,Econ Disadv,San Diego,Fall 2019,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,High,16.70%,1.50%
+Orange,Warner Unified,Econ Disadv,San Diego,Fall 2019,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased,High,11.50%,3.70%
+Orange,Vista Unified,Amer Indian,San Diego,Fall 2019,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,High,13.20%,5.80%
+Orange,Warner Unified,Amer Indian,San Diego,Fall 2019,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,High,12.20%,7.40%
+Orange,San Marcos Unified,Amer Indian,San Diego,Fall 2019,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,High,13.60%,7.50%
+Orange,Poway Unified,Black,San Diego,Fall 2019,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,High,10.20%,1.10%
+Orange,Vista Unified,Black,San Diego,Fall 2019,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,High,13.30%,1.30%
+Orange,San Diego Unified,Black,San Diego,Fall 2019,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,High,16.40%,1.30%
+Orange,Carlsbad Unified,Black,San Diego,Fall 2019,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,High,14.40%,5.20%
+Orange,Oceanside Unified,English Learner,San Diego,Fall 2019,Unified School District,ELL Status,currstatus,San Diego/Imperial,Maintained,High,10.50%,0.00%
+Orange,Valley Center-Pauma Unified,English Learner,San Diego,Fall 2019,Unified School District,ELL Status,currstatus,San Diego/Imperial,Maintained,High,14.00%,0.00%
+Orange,Oceanside Unified,Econ Disadv,San Diego,Fall 2019,Unified School District,Economic Status,currstatus,San Diego/Imperial,Maintained,High,12.80%,-0.20%
+Orange,Oceanside Unified,Black,San Diego,Fall 2019,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Maintained,High,13.20%,-0.30%
+Red,San Diego County Office of Education,Econ Disadv,San Diego,Fall 2019,County Office of Education (COE),Economic Status,currstatus,San Diego/Imperial,Increased,Very High,55.60%,2.90%
+Red,San Diego County Office of Education,Black,San Diego,Fall 2019,County Office of Education (COE),Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Very High,61.90%,2.30%
+Orange,San Diego County Office of Education,English Learner,San Diego,Fall 2019,County Office of Education (COE),ELL Status,currstatus,San Diego/Imperial,Declined,Very High,47.30%,-2.00%
+Red,Alpine Union Elementary,Amer Indian,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Very High,20.30%,4.10%
+Red,Cajon Valley Union,Black,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Very High,21.80%,1.50%
+Red,Cajon Valley Union,Amer Indian,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Maintained,Very High,25.00%,0.00%
+Orange,Lakeside Union Elementary (San Diego),Amer Indian,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,Very High,23.20%,-1.80%
+Red,Mountain Empire Unified,Econ Disadv,San Diego,Fall 2019,Unified School District,Economic Status,currstatus,San Diego/Imperial,Increased Significantly,Very High,21.00%,3.50%
+Red,Valley Center-Pauma Unified,Amer Indian,San Diego,Fall 2019,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased Significantly,Very High,37.40%,3.20%
+Red,San Diego Unified,Amer Indian,San Diego,Fall 2019,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Very High,21.30%,2.80%
+Red,Mountain Empire Unified,Amer Indian,San Diego,Fall 2019,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Very High,39.00%,8.50%
+Orange,Bonsall Unified,Amer Indian,San Diego,Fall 2019,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,Very High,29.70%,-9.20%
+Red,Jamul-Dulzura Union Elementary,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Increased Significantly,High,15.40%,3.70%
+Orange,Cajon Valley Union,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Increased,High,11.10%,1.10%
+Orange,Escondido Union,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Increased,High,12.90%,1.40%
+Orange,Lemon Grove,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Increased,High,15.30%,1.60%
+Orange,San Ysidro Elementary,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Increased,High,11.70%,1.80%
+Orange,La Mesa-Spring Valley,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Increased,High,15.80%,1.80%
+Orange,Encinitas Union Elementary,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Increased,High,10.30%,2.40%
+Orange,Alpine Union Elementary,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Increased,High,16.30%,3.40%
+Orange,Jamul-Dulzura Union Elementary,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Increased,High,15.60%,4.70%
+Orange,Escondido Union,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Increased,High,13.70%,0.60%
+Orange,La Mesa-Spring Valley,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Increased,High,17.10%,0.70%
+Orange,San Ysidro Elementary,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Increased,High,11.60%,1.60%
+Orange,Cajon Valley Union,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Increased,High,15.10%,2.00%
+Orange,Lemon Grove,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Increased,High,17.10%,2.10%
+Orange,Cardiff Elementary,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Increased,High,12.10%,5.10%
+Orange,Lakeside Union Elementary (San Diego),Black,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,High,13.40%,0.50%
+Orange,South Bay Union,Black,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,High,15.80%,1.20%
+Orange,Escondido Union,Black,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,High,16.20%,1.50%
+Orange,Lemon Grove,Black,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,High,14.50%,2.30%
+Orange,Lakeside Union Elementary (San Diego),Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Maintained,High,12.50%,-0.30%
+Orange,Encinitas Union Elementary,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Maintained,High,11.50%,0.00%
+Orange,Alpine Union Elementary,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Maintained,High,14.90%,0.00%
+Orange,South Bay Union,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Maintained,High,16.30%,0.30%
+Orange,La Mesa-Spring Valley,Black,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Maintained,High,16.90%,0.40%
+Yellow,Ramona City Unified,English Learner,San Diego,Fall 2019,Unified School District,ELL Status,currstatus,San Diego/Imperial,Declined,High,12.10%,-2.30%
+Yellow,Oceanside Unified,Amer Indian,San Diego,Fall 2019,Unified School District,Race/Ethnicity,currstatus,San Diego/Imperial,Declined,High,15.70%,-7.10%
+Yellow,Ramona City Unified,Econ Disadv,San Diego,Fall 2019,Unified School District,Economic Status,currstatus,San Diego/Imperial,Declined Significantly,High,14.30%,-3.30%
+Orange,Santee,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Increased,Medium,8.80%,0.50%
+Orange,Chula Vista Elementary,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Increased,Medium,9.40%,0.60%
+Orange,Fallbrook Union Elementary,Black,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Medium,9.60%,0.90%
+Orange,Chula Vista Elementary,Black,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Medium,6.30%,1.50%
+Orange,San Ysidro Elementary,Black,San Diego,Fall 2019,Elementary School District,Race/Ethnicity,currstatus,San Diego/Imperial,Increased,Medium,9.50%,2.10%
+Yellow,Chula Vista Elementary,English Learner,San Diego,Fall 2019,Elementary School District,ELL Status,currstatus,San Diego/Imperial,Maintained,Medium,8.50%,0.40%
+Yellow,Vallecitos Elementary,Econ Disadv,San Diego,Fall 2019,Elementary School District,Economic Status,currstatus,San Diego/Imperial,Maintained,Medium,7.30%,-0.30%

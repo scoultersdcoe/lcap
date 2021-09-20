@@ -1,0 +1,417 @@
+---
+title: "Equity Dashboard"
+author: "Shannon Coulter, SDCOE"
+subtitle: "Source: Forcast 5"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    social: menu
+    source_code: embed
+    theme: spacelab
+params:
+  district: "Carlsbad Unified"
+editor_options: 
+  markdown: 
+    wrap: 80
+date: "`r format(Sys.time(), '%b %d, %Y')`"
+---
+
+```{r setup, echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(plotly)
+library(plyr)
+library(flexdashboard)
+library(here)
+library(shiny)
+library(crosstalk)
+library(ggthemes)
+library(htmltools)
+library(ggrepel)
+library(janitor)
+```
+
+
+```{r import-data}
+# figure out how to source child/parent?
+teach_stu_ratio <- read.csv(file = here("data", "district_ratios.csv")) #see script
+susp <- read.csv(file = here("data", "all_districts_susp.csv"))
+grad_rate <- read.csv(file = here("data", "all_districts_grad_rate2.csv"))
+el_progress <- read.csv(file = here("data", "all_districts_el_progress.csv"))
+achv_gap <- read.csv(file = here("data", "all_districts_achv_gap2.csv"))
+chronic <- read.csv(file = here("data", "all_districts_chronic2.csv"))
+drop <- read.csv(file = here("data", "all_districts_dropout_rate.csv"))
+ag <- read.csv(file = here("data", 'uc_ag_rate_2.csv'))
+```
+
+```{r clean-data}
+teach_stu_ratio <- teach_stu_ratio %>%
+  dplyr::rename(race_eth = "X1", year = "X2", dist_name = "X3") 
+
+teach_stu_ratio <- janitor::clean_names(teach_stu_ratio)
+susp <- janitor::clean_names(susp)
+grad_rate <- janitor::clean_names(grad_rate)
+el_progress <- janitor::clean_names(el_progress)
+achv_gap <- janitor::clean_names(achv_gap)
+chronic <- janitor::clean_names(chronic)
+drop <- janitor::clean_names(drop)
+ag <- janitor::clean_names(ag)
+
+teach_stu_ratio <- teach_stu_ratio %>% 
+  mutate(Student = as.numeric(sub("%","", teach_stu_ratio$student))/100,
+         Teacher = as.numeric(sub("%","", teach_stu_ratio$teacher))/100)
+
+teach_stu_ratio$race_eth[teach_stu_ratio$race_eth == "Caucasian"] <- "White"
+
+susp <- susp %>% 
+  mutate(status = as.numeric(sub("%","", susp$status))/100,
+         year = as.factor(year),
+         enrollment_type = as.factor(enrollment_type))
+
+grad_rate <- grad_rate %>% 
+  mutate(status = as.numeric(sub("%","", grad_rate$status))/100,
+         year = as.factor(year),
+         enrollment_type = as.factor(enrollment_type))
+
+el_progress <- el_progress %>% 
+  mutate(status = as.numeric(sub("%","", el_progress$status))/100,
+         year = as.factor(year))
+
+achv_gap <- achv_gap %>% 
+  mutate(Disadvantaged = as.numeric(sub("%","", achv_gap$no_choices))/100,
+         Non_Disadvantaged = as.numeric(sub("%","", achv_gap$pos_choices))/100,
+         year = as.factor(year))
+
+chronic <- chronic %>% 
+  mutate(absenteeism_indicator = as.numeric(sub("%","", chronic$absenteeism_indicator))/100,
+         change = as.numeric(sub("%","", chronic$change))/100,
+         year = substr(chronic$data_set, 6, 9),
+         year = as.factor(year))
+
+drop <- drop %>% 
+  mutate(status = as.numeric(sub("%","", drop$result_2))/100,
+         year = as.factor(year),
+         breakdown_type = as.factor(breakdown_type))
+
+ag <- ag %>% 
+  mutate(status = as.numeric(sub("%","", ag$status))/100,
+         year = as.factor(year),
+         enrollment_type = as.factor(enrollment_type))
+```
+
+**`r params$district`** Equity  
+================================================================================
+
+## Row 1 
+--------------------------------------------------------------------------------
+
+### Teacher-Student Ratios  {data-width="500"}
+
+```{r ratios, echo=FALSE, message=FALSE, warning=FALSE}
+teach_stu_ratio_1 <- teach_stu_ratio %>% 
+  pivot_longer(cols = c("Student", "Teacher"),
+               names_to = "group", values_to = "percent") %>%
+  mutate(race_eth = factor(race_eth, levels = c("American Indian or Alaskan Native", 
+                                                "Asian", "Black or African American", 
+                                                "Filipino", "Hispanic", "Multiracial", 
+                                                "Native Hawaiian/Pacific Islander", 
+                                                "White", "Unknown", "Unreported"))) %>%
+  filter(dist_name == params$district)
+
+ratio <- teach_stu_ratio_1 %>%
+  ggplot(aes(x = race_eth, y = percent, fill = group)) +
+  geom_col(position = "dodge") +
+  coord_flip() +
+  scale_y_continuous(labels = scales::percent) +
+  scale_fill_viridis_d(labels = c("Student", "Teacher")) +
+  scale_x_discrete(limits = rev) +
+  theme(panel.grid.major.y = element_blank()) + 
+  theme(legend.position = "bottom", legend.direction = "horizontal") +
+  ggtitle(teach_stu_ratio_1$dist_name) +
+  labs(subtitle = "Teacher-Student Ratio",
+       caption = "Source: California Department of Education",
+       x = NULL, y = NULL, fill = NULL)
+
+plotly::ggplotly(ratio) %>%
+  layout(legend = list(orientation = "h", x = 0.4, y = -0.3))
+```
+
+### Suspension Rate
+
+```{r suspension, echo=FALSE, message=FALSE, warning=FALSE}
+susp_1 <- susp %>%
+  filter(enrollment_type %in% c("All Students", "Amer Indian", "Black", "Hispanic", "SwD")) %>%
+  filter(district == params$district)
+
+sus <- susp_1 %>%
+  ggplot(aes(x = year, y = status, group = enrollment_type, color = enrollment_type)) +
+  geom_line(
+    size = 1) +
+  geom_point(size = 2.5) +
+  geom_text_repel(aes(
+    label = ifelse(year == "2019", scales::percent(status, accuracy = 2L), "")),
+    force        = 0.5,
+    nudge_x      = 0,
+    direction    = "y",
+    hjust        = 0,
+    segment.size = 0.2,
+    fontface     = "bold",
+    show.legend = FALSE) +
+  ggtitle(susp_1$district) +
+  labs(subtitle = "Suspension Rate",
+       caption = "Source: California Department of Education",
+       x = NULL, y = NULL, fill = NULL) +
+  scale_y_continuous(
+    labels = scales::percent_format()) +
+  scale_color_viridis_d() +
+  theme(panel.grid.major.y = element_blank()) + 
+  theme(legend.position = "bottom", 
+        legend.direction = "horizontal",
+        legend.title = element_blank(),
+        fill = NULL)
+
+ggplotly(sus) %>%
+  layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
+```
+
+## Row 2
+--------------------------------------------------------------------------------
+### Graduation Rate {data-width="1000"}
+
+```{r grad-rate, echo=FALSE, message=FALSE, warning=FALSE}
+grad_rate_1 <- grad_rate %>%
+  filter(enrollment_type %in% c("All Students", "Amer Indian", "Black", "Hispanic", "SwD")) %>%
+  filter(district == params$district)
+
+grad <- grad_rate_1 %>%
+  {if(nrow(grad_rate_1) == 0) {
+    cat("No data for this district")
+  } else{
+    ggplot(grad_rate_1, aes(x = year, y = status, group = enrollment_type, 
+                            color = enrollment_type)) +
+      geom_line(
+        size = 1) +
+      geom_point(size = 2.5) +
+      geom_text_repel(aes(
+        label = ifelse(year == "2019", scales::percent(status, accuracy = 2L), "")),
+        force        = 0.5,
+        nudge_x      = 0,
+        direction    = "y",
+        hjust        = 0,
+        segment.size = 0.2,
+        fontface     = "bold",
+        show.legend = FALSE) +
+      ggtitle(grad_rate_1$district) +
+      labs(subtitle = "Graduation Rate",
+           caption = "Source: California Department of Education",
+           x = NULL, y = NULL, fill = NULL) +
+      scale_y_continuous(
+        labels = scales::percent_format(),
+        limits = c(0,1)) +
+      scale_color_viridis_d() +
+      theme(panel.grid.major.y = element_blank()) + 
+      theme(legend.position = "bottom", 
+            legend.direction = "horizontal",
+            legend.title = element_blank())
+  }
+  }
+
+ggplotly(grad) %>%
+  layout(legend = list(orientation = "h", x = 0.2, y = -0.2))
+```
+
+### EL Progress
+
+```{r el-progress, echo=FALSE, message=FALSE, warning=FALSE}
+el_progress_2 <- el_progress %>%
+  filter(district == params$district)
+
+el <- el_progress_2 %>%
+  {if(nrow(el_progress_2) == 0) {
+    cat("No data for this district")
+  } else{
+    ggplot(., aes(x = year, y = status, fill = year)) +
+      geom_col() +
+      scale_y_continuous(labels = scales::percent) +      
+      scale_fill_viridis_d(option = "viridis") +
+      theme(panel.grid.major.y = element_blank()) + 
+      ggtitle(el_progress_2$district) +
+      labs(subtitle = "English Learner Progress",
+           caption = "Source: California Department of Education",
+           x = NULL, y = NULL, fill = NULL) +
+      theme(legend.position = "none")
+  }
+  }
+
+ggplotly(el) %>%
+  layout(legend = list(orientation = "h", x = 0.4, y = -0.2))
+```
+
+### Mathematics Achievement Gap
+
+```{r achievement-gaps, echo=FALSE, message=FALSE, warning=FALSE}
+achv_gap_2 <- achv_gap %>% 
+  pivot_longer(cols = c("Disadvantaged", "Non_Disadvantaged"),
+               names_to = "group", values_to = "percent") %>%
+  filter(district == params$district)
+
+
+gaps <- ggplot(achv_gap_2, aes(x = year, y = percent, fill = group)) +
+  geom_col(position = "dodge") +
+  coord_flip() +
+  scale_y_continuous(labels = scales::percent) +
+  scale_fill_viridis_d(labels = c("Disadvantaged", "Non-Disadvantaged")) +
+  theme(panel.grid.major.y = element_blank()) + 
+  theme(legend.position = "bottom", legend.direction = "horizontal",
+  ) +
+  ggtitle(achv_gap_2$district) +
+  labs(subtitle = "Achievement Gap Economically/Non-Economically Disadvantaged",
+       caption = "Source: California Department of Education",
+       x = NULL, y = NULL, fill = NULL)
+
+ggplotly(gaps) %>%
+  layout(legend = list(orientation = "h", x = 0.4, y = -0.2))
+```
+## Row 3 {data-height="10"}
+--------------------------------------------------------------------------------
+###### Source: Forcast 5
+
+Engagement
+================================================================================
+
+## Row 1 
+--------------------------------------------------------------------------------
+
+### Chronic Absenteeism  {data-width="750"}
+
+```{r chrn-abs, echo=FALSE, message=FALSE, warning=FALSE}
+chronic_1 <- chronic %>%
+  filter(district == params$district)
+
+chrn <- chronic_1 %>% 
+  {if(nrow(chronic_1) == 0) {
+    cat("No data for this district")
+  } else{
+    ggplot(., aes(x = change, y = absenteeism_indicator, shape = enrollment_type,
+                  color = enrollment_type)) +
+      geom_point(size = 4) +
+      theme(panel.grid.major.y = element_blank(),
+            legend.position = "bottom", 
+            legend.direction = "horizontal",
+            legend.title = element_blank()) +
+      scale_y_continuous(
+        labels = scales::percent,
+        limits = c(0, 0.4)) +
+      scale_x_continuous(labels = scales::percent) +
+      scale_color_viridis_d() +
+      ggtitle(chronic_1$district) +
+      labs(subtitle = "Chronic Abenteeism",
+           caption = "Source: California Department of Education",
+           x = 'Percent change last year', y = 'Percent chronically absent', fill = NULL)
+  }
+  }
+
+plotly::ggplotly(chrn) %>%
+  layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
+```
+
+### Dropout Rate
+
+```{r drop-out, echo=FALSE, message=FALSE, warning=FALSE}
+drop_1 <- drop %>%
+  filter(district == params$district)
+
+drp <- drop_1 %>%
+  {if(nrow(drop_1) == 0) {
+    cat("No data for this district")
+  } else{
+    ggplot(., aes(x = year, y = status, group = breakdown_type, color = breakdown_type)) +
+      geom_line(
+        size = 1) +
+      geom_point(size = 2.5) +
+      geom_text_repel(aes(
+        label = ifelse(year == "2020", scales::percent(status, accuracy = 2L), "")),
+        force        = 0.5,
+        nudge_x      = 0.2,
+        direction    = "y",
+        hjust        = 0,
+        segment.size = 0.2,
+        fontface     = "bold",
+        show.legend = FALSE) +
+      ggtitle(drop_1$district) +
+      labs(subtitle = "Dropout Rate",
+           caption = "Source: California Department of Education",
+           x = NULL, y = NULL, fill = NULL) +
+      scale_y_continuous(
+        labels = scales::percent_format(),
+        limits = c(0, 0.4)) +
+      scale_color_viridis_d() +
+      theme(panel.grid.major.y = element_blank()) + 
+      theme(legend.position = "bottom", 
+            legend.direction = "horizontal",
+            legend.title = element_blank())
+  }
+  }
+
+plotly::ggplotly(drp) %>%
+  layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
+```
+
+## Row 2 
+--------------------------------------------------------------------------------
+
+### A-G Completion Rate  {data-width="750"}
+
+```{r ag-rate, echo=FALSE, message=FALSE, warning=FALSE}
+ag_1 <- ag %>%
+  filter(district == params$district)
+
+agc <- ag_1 %>%
+  {if(nrow(ag_1) == 0) {
+    cat("No data for this district")
+  } else{
+    agc <- ggplot(., aes(x = year, y = status, group = enrollment_type, 
+                         color = enrollment_type)) +
+      geom_line(
+        size = 1) +
+      geom_point(size = 2.5) +
+      geom_text_repel(aes(
+        label = ifelse(year == "2019", scales::percent(status, accuracy = 2L), "")),
+        force        = 0.5,
+        nudge_x      = 0.2,
+        direction    = "y",
+        hjust        = 0,
+        segment.size = 0.2,
+        fontface     = "bold",
+        show.legend = FALSE) +
+      ggtitle(ag_1$district) +
+      labs(subtitle = "A-G Completion Rate",
+           caption = "Source: California Department of Education",
+           x = NULL, y = NULL, fill = NULL) +
+      scale_y_continuous(
+        labels = scales::percent_format(),
+        limits = c(0, 1)) +
+      scale_color_viridis_d() +
+      theme(panel.grid.major.y = element_blank()) + 
+      theme(legend.position = "bottom", 
+            legend.direction = "horizontal",
+            legend.title = element_blank())
+  }
+  }
+
+plotly::ggplotly(agc) %>%
+  layout(legend = list(orientation = "h", x = 0.2, y = -0.2))
+```
+
+### Implementation
+
+https://www.sdcoe.net/lls/assessment/Pages/LCAP/Resources.aspx
+
+- Access to distance learning
+
+- Support for family and student well-being
+
+- Engagement in learning
+
+- Access to social-emotional learning and support
+
+- Communication structures and processes
